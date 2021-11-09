@@ -1,6 +1,8 @@
 #ifndef SHOE_H
 #define SHOE_H
-#include "shoe.h"
+#include "SportShoe.h"
+#include "FemaleShoe.h"
+#include "MaleShoe.h"
 #include <iostream>
 
 

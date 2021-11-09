@@ -3,11 +3,11 @@
 class SportShoe
 {
 private:
-    int shoelase; //meter
-    double cloth; //square meters
-    int size; //size of shoe
-    std::string color; //color of shoe
-    
+    int size = 0;                   // size of shoe
+    std::string shoelaseColor = ""; // color of shoelace
+    std::string bodyColor = "";     // color of shoe body
+    std::string solesColor = "";    // color of shoe soles
+
 public:
     SportShoe(/* args */);
     ~SportShoe();
@@ -20,4 +20,3 @@ SportShoe::SportShoe(/* args */)
 SportShoe::~SportShoe()
 {
 }
-

@@ -3,8 +3,10 @@
 class MaleShoe
 {
 private:
-    int size; //size of shoe
-    std::string color; //color of shoe
+    int size = 0;                // size of shoe
+    std::string bodyColor = "";  // color of shoe body
+    std::string solesColor = ""; // color of shoe soles
+
 public:
     MaleShoe(/* args */);
     ~MaleShoe();
