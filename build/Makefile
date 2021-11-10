@@ -150,6 +150,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shoe.o: src/shoe.cpp.o
+
+.PHONY : src/shoe.o
+
+# target to build an object file
+src/shoe.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.o
+.PHONY : src/shoe.cpp.o
+
+src/shoe.i: src/shoe.cpp.i
+
+.PHONY : src/shoe.i
+
+# target to preprocess a source file
+src/shoe.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.i
+.PHONY : src/shoe.cpp.i
+
+src/shoe.s: src/shoe.cpp.s
+
+.PHONY : src/shoe.s
+
+# target to generate assembly for a file
+src/shoe.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.s
+.PHONY : src/shoe.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shoe.o"
+	@echo "... src/shoe.i"
+	@echo "... src/shoe.s"
 .PHONY : help
 
 

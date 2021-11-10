@@ -1,3 +1,5 @@
+#ifndef DECOR_H
+#define DECOR_H
 #include <iostream>
 
 class Decor
@@ -19,3 +21,4 @@ Decor::Decor(/* args */)
 Decor::~Decor()
 {
 }
+#endif

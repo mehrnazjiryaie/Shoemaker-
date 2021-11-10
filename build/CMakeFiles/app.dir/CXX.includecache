@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
+../include/Decor.h
+iostream
+-
+
+../include/FemaleShoe.h
+iostream
+-
+
+../include/MaleShoe.h
+iostream
+-
+
+../include/SportShoe.h
+iostream
+-
+
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/main.cpp
 iostream
 -
+SportShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
+FemaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/FemaleShoe.h
+MaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.h
+Decor.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Decor.h
 
