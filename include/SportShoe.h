@@ -16,7 +16,10 @@ public:
     std::string get_shoelase();
     std::string get_bodyColor();
     std::string get_solesColor();
+    unsigned int get_size();
     //~SportShoe();
 };
+
+void sport_shoe();
 
 #endif

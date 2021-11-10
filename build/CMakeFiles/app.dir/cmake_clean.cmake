@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/app.dir/src/Femaleshoe.cpp.o"
+  "CMakeFiles/app.dir/src/MaleShoe.cpp.o"
+  "CMakeFiles/app.dir/src/SportShoe.cpp.o"
   "CMakeFiles/app.dir/src/main.cpp.o"
-  "CMakeFiles/app.dir/src/shoe.cpp.o"
+  "CMakeFiles/app.dir/src/shoes.cpp.o"
   "app"
   "app.pdb"
 )

@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../include/Decor.h
-iostream
--
-
-../include/FemaleShoe.h
-iostream
--
-
-../include/MaleShoe.h
+../include/Function.h
 iostream
 -
 
 ../include/SportShoe.h
+iostream
+-
+
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp
+SportShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
 iostream
 -
 
@@ -27,10 +25,14 @@ iostream
 -
 SportShoe.h
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
-FemaleShoe.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/FemaleShoe.h
-MaleShoe.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.h
-Decor.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Decor.h
+Function.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Function.h
+
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp
+SportShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
+Function.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Function.h
+iostream
+-
 

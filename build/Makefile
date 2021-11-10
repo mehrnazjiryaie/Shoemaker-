@@ -123,6 +123,87 @@ app/fast:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+src/Femaleshoe.o: src/Femaleshoe.cpp.o
+
+.PHONY : src/Femaleshoe.o
+
+# target to build an object file
+src/Femaleshoe.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Femaleshoe.cpp.o
+.PHONY : src/Femaleshoe.cpp.o
+
+src/Femaleshoe.i: src/Femaleshoe.cpp.i
+
+.PHONY : src/Femaleshoe.i
+
+# target to preprocess a source file
+src/Femaleshoe.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Femaleshoe.cpp.i
+.PHONY : src/Femaleshoe.cpp.i
+
+src/Femaleshoe.s: src/Femaleshoe.cpp.s
+
+.PHONY : src/Femaleshoe.s
+
+# target to generate assembly for a file
+src/Femaleshoe.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Femaleshoe.cpp.s
+.PHONY : src/Femaleshoe.cpp.s
+
+src/MaleShoe.o: src/MaleShoe.cpp.o
+
+.PHONY : src/MaleShoe.o
+
+# target to build an object file
+src/MaleShoe.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/MaleShoe.cpp.o
+.PHONY : src/MaleShoe.cpp.o
+
+src/MaleShoe.i: src/MaleShoe.cpp.i
+
+.PHONY : src/MaleShoe.i
+
+# target to preprocess a source file
+src/MaleShoe.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/MaleShoe.cpp.i
+.PHONY : src/MaleShoe.cpp.i
+
+src/MaleShoe.s: src/MaleShoe.cpp.s
+
+.PHONY : src/MaleShoe.s
+
+# target to generate assembly for a file
+src/MaleShoe.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/MaleShoe.cpp.s
+.PHONY : src/MaleShoe.cpp.s
+
+src/SportShoe.o: src/SportShoe.cpp.o
+
+.PHONY : src/SportShoe.o
+
+# target to build an object file
+src/SportShoe.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/SportShoe.cpp.o
+.PHONY : src/SportShoe.cpp.o
+
+src/SportShoe.i: src/SportShoe.cpp.i
+
+.PHONY : src/SportShoe.i
+
+# target to preprocess a source file
+src/SportShoe.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/SportShoe.cpp.i
+.PHONY : src/SportShoe.cpp.i
+
+src/SportShoe.s: src/SportShoe.cpp.s
+
+.PHONY : src/SportShoe.s
+
+# target to generate assembly for a file
+src/SportShoe.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/SportShoe.cpp.s
+.PHONY : src/SportShoe.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -150,32 +231,32 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/shoe.o: src/shoe.cpp.o
+src/shoes.o: src/shoes.cpp.o
 
-.PHONY : src/shoe.o
+.PHONY : src/shoes.o
 
 # target to build an object file
-src/shoe.cpp.o:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.o
-.PHONY : src/shoe.cpp.o
+src/shoes.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoes.cpp.o
+.PHONY : src/shoes.cpp.o
 
-src/shoe.i: src/shoe.cpp.i
+src/shoes.i: src/shoes.cpp.i
 
-.PHONY : src/shoe.i
+.PHONY : src/shoes.i
 
 # target to preprocess a source file
-src/shoe.cpp.i:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.i
-.PHONY : src/shoe.cpp.i
+src/shoes.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoes.cpp.i
+.PHONY : src/shoes.cpp.i
 
-src/shoe.s: src/shoe.cpp.s
+src/shoes.s: src/shoes.cpp.s
 
-.PHONY : src/shoe.s
+.PHONY : src/shoes.s
 
 # target to generate assembly for a file
-src/shoe.cpp.s:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoe.cpp.s
-.PHONY : src/shoe.cpp.s
+src/shoes.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/shoes.cpp.s
+.PHONY : src/shoes.cpp.s
 
 # Help Target
 help:
@@ -186,12 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... app"
+	@echo "... src/Femaleshoe.o"
+	@echo "... src/Femaleshoe.i"
+	@echo "... src/Femaleshoe.s"
+	@echo "... src/MaleShoe.o"
+	@echo "... src/MaleShoe.i"
+	@echo "... src/MaleShoe.s"
+	@echo "... src/SportShoe.o"
+	@echo "... src/SportShoe.i"
+	@echo "... src/SportShoe.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/shoe.o"
-	@echo "... src/shoe.i"
-	@echo "... src/shoe.s"
+	@echo "... src/shoes.o"
+	@echo "... src/shoes.i"
+	@echo "... src/shoes.s"
 .PHONY : help
 
 

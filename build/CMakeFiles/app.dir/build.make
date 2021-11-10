@@ -70,32 +70,77 @@ CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/main.cpp" -o CMakeFiles/app.dir/src/main.cpp.s
 
-CMakeFiles/app.dir/src/shoe.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/shoe.cpp.o: ../src/shoe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/shoe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/shoe.cpp.o -c "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoe.cpp"
+CMakeFiles/app.dir/src/shoes.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/shoes.cpp.o: ../src/shoes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/shoes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/shoes.cpp.o -c "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp"
 
-CMakeFiles/app.dir/src/shoe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/shoe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoe.cpp" > CMakeFiles/app.dir/src/shoe.cpp.i
+CMakeFiles/app.dir/src/shoes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/shoes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp" > CMakeFiles/app.dir/src/shoes.cpp.i
 
-CMakeFiles/app.dir/src/shoe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/shoe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoe.cpp" -o CMakeFiles/app.dir/src/shoe.cpp.s
+CMakeFiles/app.dir/src/shoes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/shoes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp" -o CMakeFiles/app.dir/src/shoes.cpp.s
+
+CMakeFiles/app.dir/src/Femaleshoe.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/Femaleshoe.cpp.o: ../src/Femaleshoe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/Femaleshoe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/Femaleshoe.cpp.o -c "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Femaleshoe.cpp"
+
+CMakeFiles/app.dir/src/Femaleshoe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/Femaleshoe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Femaleshoe.cpp" > CMakeFiles/app.dir/src/Femaleshoe.cpp.i
+
+CMakeFiles/app.dir/src/Femaleshoe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Femaleshoe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Femaleshoe.cpp" -o CMakeFiles/app.dir/src/Femaleshoe.cpp.s
+
+CMakeFiles/app.dir/src/MaleShoe.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/MaleShoe.cpp.o: ../src/MaleShoe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/MaleShoe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/MaleShoe.cpp.o -c "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.cpp"
+
+CMakeFiles/app.dir/src/MaleShoe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/MaleShoe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.cpp" > CMakeFiles/app.dir/src/MaleShoe.cpp.i
+
+CMakeFiles/app.dir/src/MaleShoe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/MaleShoe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.cpp" -o CMakeFiles/app.dir/src/MaleShoe.cpp.s
+
+CMakeFiles/app.dir/src/SportShoe.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/SportShoe.cpp.o: ../src/SportShoe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/SportShoe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/SportShoe.cpp.o -c "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp"
+
+CMakeFiles/app.dir/src/SportShoe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/SportShoe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp" > CMakeFiles/app.dir/src/SportShoe.cpp.i
+
+CMakeFiles/app.dir/src/SportShoe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/SportShoe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp" -o CMakeFiles/app.dir/src/SportShoe.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.o" \
-"CMakeFiles/app.dir/src/shoe.cpp.o"
+"CMakeFiles/app.dir/src/shoes.cpp.o" \
+"CMakeFiles/app.dir/src/Femaleshoe.cpp.o" \
+"CMakeFiles/app.dir/src/MaleShoe.cpp.o" \
+"CMakeFiles/app.dir/src/SportShoe.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/main.cpp.o
-app: CMakeFiles/app.dir/src/shoe.cpp.o
+app: CMakeFiles/app.dir/src/shoes.cpp.o
+app: CMakeFiles/app.dir/src/Femaleshoe.cpp.o
+app: CMakeFiles/app.dir/src/MaleShoe.cpp.o
+app: CMakeFiles/app.dir/src/SportShoe.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/moalem/Desktop/AP project-fase1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
