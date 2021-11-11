@@ -60,6 +60,14 @@ void FemaleShoe::set_heelLength(double heellength)
     heelLength = heellength;
 }
 
+FemaleShoe FemaleShoe::operator>(FemaleShoe &fshoe) const
+{
+    if ((this->ID) > fshoe.ID)
+    {
+        return *this;
+    }
+}
+
 void female_shoe(vector<FemaleShoe> &female) // this function get members of object and make the object
 {
     unsigned int size;

@@ -23,6 +23,7 @@ public:
     void set_bodyColor(std::string);
     void set_solesColor(std::string);
     void set_size(unsigned int);
+    SportShoe operator>(SportShoe &)const;
     //~SportShoe();
 };
 

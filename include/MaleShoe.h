@@ -11,7 +11,7 @@ private:
     std::string solesColor = ""; // color of shoe soles
     unsigned int ID = 0;         // an id for each shoe
 public:
-    MaleShoe(unsigned int , std::string , std::string );
+    MaleShoe(unsigned int, std::string, std::string);
     unsigned int get_size();
     std::string get_bodyColor();
     std::string get_solesColor();
@@ -19,12 +19,10 @@ public:
     void set_bodyColor(std::string);
     void set_solesColor(std::string);
     void set_size(unsigned int);
+    MaleShoe operator>(MaleShoe &) const;
     //~MaleShoe();
 };
 
-void male_shoe(std::vector <MaleShoe> &);
-
-
-
+void male_shoe(std::vector<MaleShoe> &);
 
 #endif

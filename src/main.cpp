@@ -20,7 +20,8 @@ int main(int argc, char const *argv[])
         cout << "               MENU                 \n";
         cout << "1 . Creat shoes                     \n";
         cout << "2 . Edit                            \n";
-        cout << "3 . History                         \n\n";
+        cout << "3 . Show                            \n";
+        cout << "4 . History                         \n\n";
 
         unsigned int id;
         string BC;
@@ -29,7 +30,7 @@ int main(int argc, char const *argv[])
         unsigned int S;
         double HL;
         string HC;
-    
+
         int choice;
         cin >> choice;
 
@@ -46,6 +47,12 @@ int main(int argc, char const *argv[])
             break;
 
         case 3:
+            cout << "Please enter shoe ID that you want to edit :";
+            cin >> id;
+            show(id, sport, female, male, BC, SHL, SL, S, HL, HC);
+            break;
+
+        case 4:
             history(sport, female, male);
             break;
         default:

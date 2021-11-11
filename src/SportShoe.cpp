@@ -43,6 +43,14 @@ bool SportShoe::find_ID(unsigned int id)
     }
 }
 
+SportShoe SportShoe::operator>(SportShoe &spshoe) const
+{
+    if ((this->ID) > spshoe.ID)
+    {
+        return *this;
+    }
+}
+
 void SportShoe::set_shoelaseColor(string sholasecolor)
 {
     shoelaseColor = sholasecolor;

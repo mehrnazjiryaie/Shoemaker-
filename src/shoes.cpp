@@ -150,3 +150,39 @@ void edit(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female,
         }
     }
 }
+
+void show(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male,
+          string BC, string SHL, string SL, unsigned int S, double HL, string HC)
+{
+    for (size_t i = 0; i < sport.size(); i++)
+    {
+        if (sport[i].find_ID(id))
+        {
+            cout << "body color :" << sport[i].get_bodyColor() << endl;
+            cout << "shoelase color :" << sport[i].get_shoelaseColor() << endl;
+            cout << "soles color :" << sport[i].get_solesColor() << endl;
+            cout << "size :" << sport[i].get_size() << endl;
+        }
+    }
+
+    for (size_t i = 0; i < female.size(); i++)
+    {
+        if (female[i].find_ID(id))
+        {
+            cout << "body color : " << female[i].get_bodyColor() << endl;
+            cout << "heel length : " << female[i].get_heelLength() << endl;
+            cout << "heel color : " << female[i].get_heelColor() << endl;
+            cout << "size :" << female[i].get_size() << endl;
+        }
+    }
+
+    for (size_t i = 0; i < male.size(); i++)
+    {
+        if (male[i].find_ID(id))
+        {
+            cout << "body color :" << male[i].get_bodyColor() << endl;
+            cout << "soles color :" << male[i].get_solesColor() << endl;
+            cout << "size :" << male[i].get_size() << endl;
+        }
+    }
+}

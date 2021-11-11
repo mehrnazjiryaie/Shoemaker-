@@ -53,6 +53,14 @@ void MaleShoe::set_size(unsigned int sz)
     size = sz;
 }
 
+MaleShoe MaleShoe::operator>(MaleShoe &mshoe) const
+{
+    if ((this->ID) > mshoe.ID)
+    {
+        return *this;
+    }
+}
+
 void male_shoe(vector<MaleShoe> &male) // this function get members of object and make the object
 {
     unsigned int size;

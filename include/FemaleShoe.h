@@ -22,6 +22,7 @@ public:
     void set_heelColor(std::string);
     void set_size(unsigned int);
     void set_heelLength(double);
+    FemaleShoe operator>(FemaleShoe &)const;
     //~FemaleShoe();//destructor
 };
 

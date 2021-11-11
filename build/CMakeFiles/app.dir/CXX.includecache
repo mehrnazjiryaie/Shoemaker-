@@ -36,6 +36,42 @@ iostream
 vector
 -
 
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Femaleshoe.cpp
+iostream
+-
+vector
+-
+FemaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/FemaleShoe.h
+
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.cpp
+iostream
+-
+vector
+-
+MaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.h
+
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp
+SportShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
+iostream
+-
+vector
+-
+
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/main.cpp
+iostream
+-
+SportShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
+FemaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/FemaleShoe.h
+MaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.h
+Function.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Function.h
+
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp
 SportShoe.h
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
