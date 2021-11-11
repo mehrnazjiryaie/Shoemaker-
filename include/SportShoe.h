@@ -1,6 +1,7 @@
 #ifndef SPORTSHOE_H
 #define SPORTSHOE_H
 #include <iostream>
+#include <vector>
 
 class SportShoe
 {
@@ -13,13 +14,18 @@ private:
 
 public:
     SportShoe(unsigned int, std::string, std::string, std::string);
-    std::string get_shoelase();
+    std::string get_shoelaseColor();
     std::string get_bodyColor();
     std::string get_solesColor();
     unsigned int get_size();
+    bool find_ID(unsigned int);
+    void set_shoelaseColor(std::string);
+    void set_bodyColor(std::string);
+    void set_solesColor(std::string);
+    void set_size(unsigned int);
     //~SportShoe();
 };
 
-void sport_shoe();
+void sport_shoe(std::vector<SportShoe> &);
 
 #endif

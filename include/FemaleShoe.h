@@ -1,6 +1,7 @@
 #ifndef FEMALESHOE_H
 #define FEMALESHOE_H
 #include <iostream>
+#include <vector>
 
 class FemaleShoe
 {
@@ -11,15 +12,22 @@ private:
     double heelLength = 0;      // length of heel
     unsigned int ID = 0;        // an id for each shoe
 public:
-    FemaleShoe(/* args */);
-    ~FemaleShoe();
+    FemaleShoe(unsigned int, std::string, std::string, double); //constructor
+    unsigned int get_size();//getter
+    std::string get_bodyColor();//getter
+    std::string get_heelColor();//getter
+    double get_heelLength();//getter
+    bool find_ID(unsigned int);
+    void set_bodyColor(std::string);
+    void set_heelColor(std::string);
+    void set_size(unsigned int);
+    void set_heelLength(double);
+    //~FemaleShoe();//destructor
 };
 
-FemaleShoe::FemaleShoe(/* args */)
-{
-}
+void female_shoe(std::vector<FemaleShoe> &);
 
-FemaleShoe::~FemaleShoe()
-{
-}
+
+
+
 #endif

@@ -6,33 +6,47 @@
 
 #IncludeRegexTransform: 
 
+../include/FemaleShoe.h
+iostream
+-
+vector
+-
+
 ../include/Function.h
 iostream
+-
+vector
+-
+SportShoe.h
+../include/SportShoe.h
+FemaleShoe.h
+../include/FemaleShoe.h
+MaleShoe.h
+../include/MaleShoe.h
+
+../include/MaleShoe.h
+iostream
+-
+vector
 -
 
 ../include/SportShoe.h
 iostream
 -
-
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.cpp
-SportShoe.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
-iostream
+vector
 -
-
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/main.cpp
-iostream
--
-SportShoe.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
-Function.h
-/mnt/c/Users/moalem/Desktop/AP project-fase1/src/Function.h
 
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/shoes.cpp
 SportShoe.h
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/SportShoe.h
 Function.h
 /mnt/c/Users/moalem/Desktop/AP project-fase1/src/Function.h
+FemaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/FemaleShoe.h
+MaleShoe.h
+/mnt/c/Users/moalem/Desktop/AP project-fase1/src/MaleShoe.h
+vector
+-
 iostream
 -
 
