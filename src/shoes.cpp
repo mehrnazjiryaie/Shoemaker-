@@ -3,7 +3,6 @@
 #include "FemaleShoe.h"
 #include "MaleShoe.h"
 #include <vector>
-
 #include <iostream>
 using namespace std;
 
@@ -53,7 +52,7 @@ void history(vector<SportShoe> sport, vector<FemaleShoe> female, vector<MaleShoe
         for (size_t i = 0; i < sport.size(); i++)
         {
             cout << "Body Color :" << sport[i].get_bodyColor() << endl;
-            cout << "Shoe Lace :" << sport[i].get_shoelase() << endl;
+            cout << "Shoe Lace :" << sport[i].get_shoelaseColor() << endl;
             cout << "ُSize :" << sport[i].get_size() << endl;
             cout << "Soles Color :" << sport[i].get_solesColor() << endl;
         }
@@ -93,15 +92,61 @@ void history(vector<SportShoe> sport, vector<FemaleShoe> female, vector<MaleShoe
     }
 }
 
-void edit(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male)
+void edit(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male,
+          string BC, string SHL, string SL, unsigned int S, double HL, string HC)
 {
     for (size_t i = 0; i < sport.size(); i++)
     {
         if (sport[i].find_ID(id))
         {
-            cout << "New body color :";
+            cout << "Enter new body color : ";
+            getline(cin, BC);
+            sport[i].set_bodyColor(BC);
+            cout << "Enter new sholase color : ";
+            cin >> SHL;
+            sport[i].set_shoelaseColor(SHL);
+            cout << "Enter new soles color : ";
+            cin >> SL;
+            sport[i].set_solesColor(SL);
+            cout << "Enter new size : ";
+            cin >> S;
+            sport[i].set_size(S);
         }
-        
-        
+    }
+
+    for (size_t i = 0; i < female.size(); i++)
+    {
+        if (female[i].find_ID(id))
+        {
+
+            cout << "Enter new body color : ";
+            cin >> BC;
+            female[i].set_bodyColor(BC);
+            cout << "Enter new heel length : ";
+            cin >> HL;
+            female[i].set_heelLength(HL);
+            cout << "Enter new heel color : ";
+            cin >> HC;
+            female[i].set_heelColor(HC);
+            cout << "Enter new size : ";
+            cin >> S;
+            female[i].set_size(S);
+        }
+    }
+
+    for (size_t i = 0; i < male.size(); i++)
+    {
+        if (male[i].find_ID(id))
+        {
+            cout << "Enter new body color : ";
+            cin >> BC;
+            male[i].set_bodyColor(BC);
+            cout << "Enter new soles color : ";
+            cin >> SL;
+            male[i].set_solesColor(SL);
+            cout << "Enter new size : ";
+            cin >> S;
+            male[i].set_size(S);
+        }
     }
 }

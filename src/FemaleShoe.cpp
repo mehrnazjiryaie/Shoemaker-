@@ -43,13 +43,22 @@ bool FemaleShoe::find_ID(unsigned int id)
     }
 }
 
-void FemaleShoe::set_bodyColor(string )
+void FemaleShoe::set_bodyColor(string bodycolor)
 {
-
+    bodyColor = bodycolor;
 }
-void set_heelColor(std::string);
-void set_size(unsigned int);
-void set_heelLength(double);
+void FemaleShoe::set_heelColor(string heelcolor)
+{
+    heelColor = heelcolor;
+}
+void FemaleShoe::set_size(unsigned int sz)
+{
+    size = sz;
+}
+void FemaleShoe::set_heelLength(double heellength)
+{
+    heelLength = heellength;
+}
 
 void female_shoe(vector<FemaleShoe> &female) // this function get members of object and make the object
 {
