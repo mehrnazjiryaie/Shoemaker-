@@ -12,15 +12,15 @@ private:
     unsigned int ID = 0;         // an id for each shoe
 public:
     MaleShoe(unsigned int, std::string, std::string);
-    unsigned int get_size();
-    std::string get_bodyColor();
-    std::string get_solesColor();
+    unsigned int get_size();//getter
+    std::string get_bodyColor();//getter
+    std::string get_solesColor();//getter
     bool find_ID(unsigned int);
-    void set_bodyColor(std::string);
-    void set_solesColor(std::string);
-    void set_size(unsigned int);
-    MaleShoe operator>(MaleShoe &) const;
-    //~MaleShoe();
+    void set_bodyColor(std::string);//setter
+    void set_solesColor(std::string);//setter
+    void set_size(unsigned int);//setter
+    MaleShoe operator>(MaleShoe &) const;//operator overloading > operator
+    
 };
 
 void male_shoe(std::vector<MaleShoe> &);

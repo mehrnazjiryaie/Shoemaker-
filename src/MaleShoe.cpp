@@ -26,7 +26,7 @@ string MaleShoe::get_solesColor()
     return solesColor;
 }
 
-bool MaleShoe::find_ID(unsigned int id)
+bool MaleShoe::find_ID(unsigned int id)//finds special a pair of shoes using by ID
 {
     if (id == ID)
     {
@@ -71,16 +71,12 @@ void male_shoe(vector<MaleShoe> &male) // this function get members of object an
     cin >> size;
 
     cout << "What color do you want for shoe body?\n";
-    cin.ignore();
-    getline(cin, bodyColor);
+    cin.ignore();// ignores garbage character
+    getline(cin, bodyColor);// get the string
 
     cout << "What color do you want for shoe soles / heel?\n";
-    getline(cin, solesColor);
+    getline(cin, solesColor);// get the string
 
     MaleShoe mshoe(size, bodyColor, solesColor); // call constructor
     male.push_back(mshoe);
 }
-
-// MaleShoe::~MaleShoe()
-// {
-// }

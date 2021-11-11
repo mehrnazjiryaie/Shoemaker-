@@ -82,19 +82,15 @@ void sport_shoe(vector<SportShoe> &sport) // this function get members of object
     cin >> size;
 
     cout << "What color do you want for shoebody?\n";
-    cin.ignore();
-    getline(cin, bodyColor);
+    cin.ignore();            // ignores garbage character
+    getline(cin, bodyColor); // get the string
 
     cout << "What color do you want for shoe soles / heel?\n";
-    getline(cin, solesColor);
+    getline(cin, solesColor); // get the string
 
     cout << "What color do you want for shoelase?\n";
-    getline(cin, shoelaseColor);
+    getline(cin, shoelaseColor); // get the string
 
     SportShoe spshoe(size, shoelaseColor, bodyColor, solesColor); // call constructor
     sport.push_back(spshoe);
 }
-
-// SportShoe::~SportShoe()
-// {
-// }

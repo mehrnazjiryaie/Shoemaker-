@@ -7,8 +7,9 @@
 using namespace std;
 
 void shoes(vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male)
+// this function creat shoes
 {
-    cout << "which kind of shoe do you want?\n";
+    cout << "Which kind of shoe do you want?\n";
     cout << " ------------------------\n";
     cout << "| 1 --> Sport Shoe       |\n";
     cout << "| 2 --> Female Shoe      |\n";
@@ -41,6 +42,7 @@ void shoes(vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe
 }
 
 void history(vector<SportShoe> sport, vector<FemaleShoe> female, vector<MaleShoe> male)
+// this function show information of all of shoes you have been creat
 {
     if (sport.size() == 0)
     {
@@ -94,6 +96,7 @@ void history(vector<SportShoe> sport, vector<FemaleShoe> female, vector<MaleShoe
 
 void edit(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male,
           string BC, string SHL, string SL, unsigned int S, double HL, string HC)
+// this function edit information of shoes that you want
 {
     for (size_t i = 0; i < sport.size(); i++)
     {
@@ -151,8 +154,8 @@ void edit(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female,
     }
 }
 
-void show(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male,
-          string BC, string SHL, string SL, unsigned int S, double HL, string HC)
+void show(unsigned int id, vector<SportShoe> &sport, vector<FemaleShoe> &female, vector<MaleShoe> &male)
+// this function show information of a pair of shoes that you want
 {
     for (size_t i = 0; i < sport.size(); i++)
     {

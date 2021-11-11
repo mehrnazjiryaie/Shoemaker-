@@ -14,17 +14,16 @@ private:
 
 public:
     SportShoe(unsigned int, std::string, std::string, std::string);
-    std::string get_shoelaseColor();
-    std::string get_bodyColor();
-    std::string get_solesColor();
-    unsigned int get_size();
+    std::string get_shoelaseColor(); // getter
+    std::string get_bodyColor();     // getter
+    std::string get_solesColor();    // getter
+    unsigned int get_size();         // getter
     bool find_ID(unsigned int);
-    void set_shoelaseColor(std::string);
-    void set_bodyColor(std::string);
-    void set_solesColor(std::string);
-    void set_size(unsigned int);
-    SportShoe operator>(SportShoe &)const;
-    //~SportShoe();
+    void set_shoelaseColor(std::string); // setter
+    void set_bodyColor(std::string);     // setter
+    void set_solesColor(std::string);    // setter
+    void set_size(unsigned int);         // setter
+    SportShoe operator>(SportShoe &) const;//operator overloading > operator
 };
 
 void sport_shoe(std::vector<SportShoe> &);

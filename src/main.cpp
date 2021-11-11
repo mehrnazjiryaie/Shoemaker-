@@ -11,7 +11,6 @@ vector<MaleShoe> male;     // global vector
 
 int main(int argc, char const *argv[])
 {
-    srand(static_cast<unsigned int>(time(0)));
 
     cout << "-------WELCOME TO SHOE SHOP-------- \n";
 
@@ -24,12 +23,12 @@ int main(int argc, char const *argv[])
         cout << "4 . History                         \n\n";
 
         unsigned int id;
-        string BC;
-        string SHL;
-        string SL;
-        unsigned int S;
-        double HL;
-        string HC;
+        string BC;      // body color
+        string SHL;     // shoe lase color
+        string SL;      // soles color
+        unsigned int S; // size
+        double HL;      // heel length
+        string HC;      // heel color
 
         int choice;
         cin >> choice;
@@ -56,7 +55,7 @@ int main(int argc, char const *argv[])
             history(sport, female, male);
             break;
         default:
-
+            cout << "wrong choice! try again\n";
             break;
         }
     }

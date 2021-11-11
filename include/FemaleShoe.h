@@ -12,23 +12,19 @@ private:
     double heelLength = 0;      // length of heel
     unsigned int ID = 0;        // an id for each shoe
 public:
-    FemaleShoe(unsigned int, std::string, std::string, double); //constructor
-    unsigned int get_size();//getter
-    std::string get_bodyColor();//getter
-    std::string get_heelColor();//getter
-    double get_heelLength();//getter
+    FemaleShoe(unsigned int, std::string, std::string, double); // constructor
+    unsigned int get_size();                                    // getter
+    std::string get_bodyColor();                                // getter
+    std::string get_heelColor();                                // getter
+    double get_heelLength();                                    // getter
     bool find_ID(unsigned int);
-    void set_bodyColor(std::string);
-    void set_heelColor(std::string);
-    void set_size(unsigned int);
-    void set_heelLength(double);
-    FemaleShoe operator>(FemaleShoe &)const;
-    //~FemaleShoe();//destructor
+    void set_bodyColor(std::string);          // setter
+    void set_heelColor(std::string);          // setter
+    void set_size(unsigned int);              // setter
+    void set_heelLength(double);              // setter
+    FemaleShoe operator>(FemaleShoe &) const; // operator overloading > operator
 };
 
 void female_shoe(std::vector<FemaleShoe> &);
-
-
-
 
 #endif

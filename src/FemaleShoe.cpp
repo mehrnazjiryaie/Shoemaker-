@@ -31,7 +31,7 @@ double FemaleShoe::get_heelLength() // getter
     return heelLength;
 }
 
-bool FemaleShoe::find_ID(unsigned int id)
+bool FemaleShoe::find_ID(unsigned int id) // finds special a pair of shoes using by ID
 {
     if (id == ID)
     {
@@ -79,11 +79,11 @@ void female_shoe(vector<FemaleShoe> &female) // this function get members of obj
     cin >> size;
 
     cout << "What color do you want for shoe body?\n";
-    cin.ignore();
-    getline(cin, bodyColor);
+    cin.ignore();            // ignores garbage character
+    getline(cin, bodyColor); // get the string
 
     cout << "What color do you want for shoe soles / heel?\n";
-    getline(cin, heelColor);
+    getline(cin, heelColor); // get the string
 
     cout << "What is your shoe's heel length?\n";
     cin >> heelLength;
@@ -91,7 +91,3 @@ void female_shoe(vector<FemaleShoe> &female) // this function get members of obj
     FemaleShoe feshoe(size, bodyColor, heelColor, heelLength); // call constructor
     female.push_back(feshoe);
 }
-
-// FemaleShoe::~FemaleShoe() // destructor implementation
-// {
-// }
