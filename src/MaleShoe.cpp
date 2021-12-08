@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "MaleShoe.h"
+#include "Shoe.h"
 using namespace std;
 
 MaleShoe::MaleShoe(unsigned int sz, string bodyCOL, string solesCOL)
@@ -77,6 +78,8 @@ void male_shoe(vector<MaleShoe> &male) // this function get members of object an
     cout << "What color do you want for shoe soles / heel?\n";
     getline(cin, solesColor);// get the string
 
+    Shoe * mptr;
     MaleShoe mshoe(size, bodyColor, solesColor); // call constructor
+    mptr = & mshoe;
     male.push_back(mshoe);
 }

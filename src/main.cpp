@@ -3,6 +3,7 @@
 #include "FemaleShoe.h"
 #include "MaleShoe.h"
 #include "Function.h"
+#include "Shoe.h"
 using namespace std;
 
 vector<SportShoe> sport;   // global vector

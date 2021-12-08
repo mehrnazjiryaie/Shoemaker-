@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "FemaleShoe.h"
-//#include "Shoe.h"
+#include "Shoe.h"
 using namespace std;
 
 FemaleShoe::FemaleShoe(unsigned int sz, string bodyCOL, string heelCOL, double heelLEN) // constructor Implementation
@@ -91,6 +91,8 @@ void female_shoe(vector<FemaleShoe> &female) // this function get members of obj
     cout << "What is your shoe's heel length?\n";
     cin >> heelLength;
 
+    Shoe *fptr;
     FemaleShoe feshoe(size, bodyColor, heelColor, heelLength); // call constructor
+    fptr = & feshoe;
     female.push_back(feshoe);
 }

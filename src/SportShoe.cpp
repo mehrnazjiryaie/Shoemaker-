@@ -1,6 +1,7 @@
 #include "SportShoe.h"
 #include <iostream>
 #include <vector>
+#include "Shoe.h"
 using namespace std;
 
 SportShoe::SportShoe(unsigned int sz, string shoeLCOL, string bodyCOL, string solesCOL)
@@ -92,6 +93,8 @@ void sport_shoe(vector<SportShoe> &sport) // this function get members of object
     cout << "What color do you want for shoelase?\n";
     getline(cin, shoelaseColor); // get the string
 
+    Shoe * spptr;
     SportShoe spshoe(size, shoelaseColor, bodyColor, solesColor); // call constructor
+    spptr = &spshoe;
     sport.push_back(spshoe);
 }
