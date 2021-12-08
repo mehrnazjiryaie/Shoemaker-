@@ -4,7 +4,7 @@
 using namespace std;
 
 MaleShoe::MaleShoe(unsigned int sz, string bodyCOL, string solesCOL)
-    : size(sz), bodyColor(bodyCOL), solesColor(solesCOL)
+    : Shoe(sz, bodyCOL, solesCOL)
 {
     ID = rand() % 100 + 300; // this function generate random numbers for each pair of shoes
     cout << "Your shoes's ID is :" << ID << endl;

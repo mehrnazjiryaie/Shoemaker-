@@ -4,8 +4,9 @@
 using namespace std;
 
 SportShoe::SportShoe(unsigned int sz, string shoeLCOL, string bodyCOL, string solesCOL)
-    : size(sz), shoelaseColor(shoeLCOL), bodyColor(bodyCOL), solesColor(solesCOL)
+    : Shoe(sz, bodyCOL, solesCOL)
 {
+    shoelaseColor = shoeLCOL;
     ID = rand() % 100 + 100;
     cout << "Your shoes's ID is :" << ID << endl;
     cout << "Congratulation! Your SportShoes is created successfully!!!\n\n";

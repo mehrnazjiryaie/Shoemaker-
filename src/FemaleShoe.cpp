@@ -1,11 +1,14 @@
 #include <iostream>
 #include <vector>
 #include "FemaleShoe.h"
+//#include "Shoe.h"
 using namespace std;
 
 FemaleShoe::FemaleShoe(unsigned int sz, string bodyCOL, string heelCOL, double heelLEN) // constructor Implementation
-    : size(sz), bodyColor(bodyCOL), heelColor(heelCOL), heelLength(heelLEN)
+    : Shoe(sz, bodyCOL, heelCOL)
 {
+    // heelColor = heelCOL;
+    heelLength = heelLEN;
     ID = rand() % 100 + 200; // this function generate random numbers for each pair of shoes
     cout << "Your shoes's ID is :" << ID << endl;
     cout << "Congratulation! Your Female Shoes is created successfully!!!\n\n";
